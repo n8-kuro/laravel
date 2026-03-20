@@ -1,0 +1,20 @@
+<x-layout>
+    <x-slot:title>
+        {{$title}}
+    </x-slot:>
+    <p>
+        <b>
+        {{$var1}}
+       </b>
+    </p>
+    <p>
+        <b>
+        {{$var2}}
+       </b>
+    </p>
+    <p>
+        <b>
+        {{$var3}}
+       </b>
+    </p>
+</x-layout>
