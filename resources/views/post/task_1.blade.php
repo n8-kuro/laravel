@@ -4,17 +4,17 @@
     </x-slot:>
     <p>
         <b>
-        {{$var1}}
+        {{$name}}
        </b>
     </p>
     <p>
         <b>
-        {{$var2}}
+        {{$age}}
        </b>
     </p>
     <p>
         <b>
-        {{$var3}}
+        {{$salary}}
        </b>
     </p>
 </x-layout>
