@@ -2,6 +2,6 @@
 namespace App\Http\Controllers;
 class PostController extends Controller {
     public function show() {
-        return view('post.task_2', ['title'=> 'number-2', 'var'=>'color:red' , 'age'=>'19', 'salary'=>'0 $']);
+        return view('post.task_3', ['title'=> 'number-3', 'name'=>'name:' , 'age'=>'age:', 'favgame'=>'favgame:']);
     }   
 }

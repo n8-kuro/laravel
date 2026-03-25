@@ -2,7 +2,13 @@
     <x-slot:title>
         {{$title}}
     </x-slot:>
+    <p>
     <input value="{{$name}}">
+    </p>
+    <p>
     <input value="{{$age}}">
-    <input value="{{$salary}}">
+    </p>
+    <p>
+    <input value="{{$favgame}}">
+    </p>
 </x-layout>
