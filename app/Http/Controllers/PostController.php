@@ -2,6 +2,15 @@
 namespace App\Http\Controllers;
 class PostController extends Controller {
     public function show() {
-    return view('post.task_6', ['title'=>'number-6', 'date'=>'27.03.2026',]);
-    }   
+    $employers = [
+        'name' => 'Bob',
+        'age' => 19, 
+        'salary' => 2000,
+    ];
+    return view('post.task_7', [
+        'title' => 'number-7', 
+        'employers' => $employers
+    ]);
+}
+
 }
