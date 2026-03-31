@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 class PostController extends Controller {
     public function show() {
     $array = [
-        'el1' => 1,
+        1 => 1,
         'el2' => 2, 
         'el3' => 3,
         'el4' => 4,
@@ -14,5 +14,8 @@ class PostController extends Controller {
         'array' => $array
     ]);
 }
+    public function city() {
+        return view('post.task_9', ['title' => 'number-9', 'city' => 'Moscow']);
+    }
 
 }
