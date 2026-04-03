@@ -43,4 +43,10 @@ class PostController extends Controller {
         return view('post.task_14_15_16', ['title'=>'number-14-15-16', 'age'=> 19]);
     }
 
+    public function task_17() {
+        return view('post.task_17', ['title'=>'number-17', 'age'=>18]);
+    }
+       
+    
+
 }
