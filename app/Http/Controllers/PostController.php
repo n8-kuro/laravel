@@ -31,4 +31,8 @@ class PostController extends Controller {
         return view('post.task_10', ['title' => 'number-10', 'location' => $array]);
     }
 
+    public function task_11() {
+        return view('post.task_11', ['title'=>'number-11', 'year'=>'2026-', 'month'=>'04-', 'day'=>'03']);
+    }
+
 }
