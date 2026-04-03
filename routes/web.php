@@ -11,3 +11,5 @@ Route::get('/num10', [PostController::class, 'task_10']);
 Route::get('/num11', [PostController::class, 'task_11']);
 
 Route::get('/num12', [PostController::class, 'task_12']);
+
+Route::get('/num14', [PostController::class, 'task_14']);
