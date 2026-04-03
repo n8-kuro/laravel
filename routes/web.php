@@ -9,3 +9,5 @@ Route::get('/num9', [PostController::class, 'city']);
 Route::get('/num10', [PostController::class, 'task_10']);
 
 Route::get('/num11', [PostController::class, 'task_11']);
+
+Route::get('/num12', [PostController::class, 'task_12']);
