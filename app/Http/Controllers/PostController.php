@@ -76,5 +76,6 @@ class PostController extends Controller {
         'array' => $array3
     ]);
     }
+    
 
 }
