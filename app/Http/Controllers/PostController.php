@@ -47,4 +47,18 @@ class PostController extends Controller {
         return view('post.task_17', ['title'=>'number-17', 'age'=>18]);
     }
 
+    public function task_18() {
+        $arr = [
+        'n1' => 9,
+        'n2' => 11, 
+        'n3' => 10,
+        'n4' => 40,
+        'n5' => 30,
+    ];
+    return view('post.task_18', [
+        'title' => 'number-18', 
+        'array' => $arr
+    ]);
+    }
+
 }
