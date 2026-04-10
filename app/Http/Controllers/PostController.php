@@ -48,7 +48,7 @@ class PostController extends Controller {
     }
 
     public function task_18() {
-        $arr = [
+        $array2 = [
         'n1' => 9,
         'n2' => 11, 
         'n3' => 10,
@@ -57,7 +57,23 @@ class PostController extends Controller {
     ];
     return view('post.task_18', [
         'title' => 'number-18', 
-        'array' => $arr
+        'array' => $array2
+    ]);
+    }
+
+    public function task_19() {
+        $array3 = [
+            'q1' => 1,
+            'q2' => 1,
+            'q3' => 2,
+            'q4' => 3,
+            'q5' => 5,
+            'q6' => 8,
+            'q7' => 13,
+        ];
+    return view('post.task_19', [
+        'title' => 'number-19',
+        'array' => $array3
     ]);
     }
 
