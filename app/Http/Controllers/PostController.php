@@ -72,10 +72,24 @@ class PostController extends Controller {
             'q7' => 13,
         ];
     return view('post.task_19', [
-        'title' => 'number-19',
+        'title' => 'number-19-21',
         'array' => $array3
     ]);
     }
     
+    public function task_22(){
+        $str = [
+            'Num-5' => 'Final Fantasy 13',
+            'Num-4' => 'Disco Elysium',
+            'Num-3' => 'Life is Strange',
+            'Num-2' => 'Trails in the Sky FC',
+            'Num-1' => 'Clair Obscur: Expedition 33',
+        ];
+
+        return view('post.task_22', [
+            'title' => 'number-22',
+            'strings' => $str
+        ]);
+    }
 
 }
