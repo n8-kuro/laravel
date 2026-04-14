@@ -4,7 +4,7 @@
     </x-slot>
 
     <ul>
-        !!Top-5 Fav games!!
+        !!My top-5 Fav games!!
         @foreach($strings as $key => $value)
             <li>{{ $key }}: {{ $value }}</li>
         @endforeach

@@ -92,4 +92,24 @@ class PostController extends Controller {
         ]);
     }
 
+    public function task_24() {
+        $array4 = [
+            'z1' => 1,
+            'z2' => 2,
+            'z3' => 3,
+            'z4' => 5,
+            'z5' => 8,
+            'z6' => 13,
+            'z7' => 21,
+            'z8' => 34,
+            'z9' => 55,
+            'z10' => 89,
+        ];
+
+        return view('post.task_24', [
+            'title' => 'number-24',
+            'array' => $array4,
+        ]);
+    }
+
 }
