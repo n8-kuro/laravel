@@ -112,4 +112,20 @@ class PostController extends Controller {
         ]);
     }
 
+    public function task_25() {
+        $data1 = [
+            's1' => 1,
+            's2' => 2,
+            's3' => 3,
+            's4' => 5,
+            's5' => 8,
+            's6' => 13,
+            's7' => 21,
+            's8' => 34,
+            's9' => 55,
+            's10' => 89,
+        ];
+        return view('post.task_25', ['title'=>'number-25', 'data'=>$data1 ]);
+    }
+
 }
