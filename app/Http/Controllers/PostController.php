@@ -71,7 +71,7 @@ class PostController extends Controller {
             'q6' => 8,
             'q7' => 13,
         ];
-    return view('post.task_19', [
+    return view('post.task_19-21', [
         'title' => 'number-19-21',
         'array' => $array3
     ]);
@@ -126,6 +126,48 @@ class PostController extends Controller {
             's10' => 89,
         ];
         return view('post.task_25', ['title'=>'number-25', 'data'=>$data1 ]);
+    }
+
+    public function task_26(){
+        $array5 = [
+            [ 
+                'x' => 2,
+                'x2' => 6,
+                'x3' => 9,
+                'x4' => 11,
+                'x5' => 5,
+            ],
+            [
+                'y' => 4,
+                'y2' => 36,
+                'y3' => 81,
+                'y4' => 121,
+                'y5' => 25,
+            ]
+      
+        ];
+        return view('post.task_26', ['title'=>'number-26', 'array'=>$array5]);
+    }
+
+    public function task_27(){
+        $employees= [
+            [
+                'name'=>'user1',
+                'surname'=>'surname1',
+                'salary'=> 1000,
+            ],
+            [
+                'name'=>'user2',
+                'surname'=>'surname2',
+                'salary'=> 2000,
+            ],
+            [
+                'name'=>'user3',
+                'surname'=>'surname3',
+                'salary'=> 3000,
+            ],
+        ];
+        return view('post.task_27', ['title'=>'number-27', 'employe'=>$employees]);
     }
 
 }

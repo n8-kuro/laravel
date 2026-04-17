@@ -25,3 +25,7 @@ Route::get('/num22', [PostController::class, 'task_22']);
 Route::get('/num24', [PostController::class, 'task_24']);
 
 Route::get('/num25', [PostController::class, 'task_25']);
+
+Route::get('/num26', [PostController::class, 'task_26']);
+
+Route::get('/num27', [PostController::class, 'task_27']);
