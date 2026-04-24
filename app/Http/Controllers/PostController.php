@@ -170,4 +170,24 @@ class PostController extends Controller {
         return view('post.task_27', ['title'=>'number-27', 'employe'=>$employees]);
     }
 
+    public function task_28(){
+        $employees= [
+            [
+                'name'=>'user1',
+                'surname'=>'surname1',
+                'salary'=> 1000,
+            ],
+            [
+                'name'=>'user2',
+                'surname'=>'surname2',
+                'salary'=> 2000,
+            ],
+            [
+                'name'=>'user3',
+                'surname'=>'surname3',
+                'salary'=> 3000,
+            ],
+        ];
+        return view('post.task_28', ['title'=>'number-28', 'employe'=>$employees]);
+    }
 }
