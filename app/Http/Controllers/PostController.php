@@ -190,4 +190,40 @@ class PostController extends Controller {
         ];
         return view('post.task_28', ['title'=>'number-28', 'employe'=>$employees]);
     }
+
+    public function task_29() {
+        $users = [
+            [
+                'name'=>'Twillight',
+                'surname'=>'Sparkle',
+            ],
+            [
+                'name'=>'Kanye',
+                'surname'=>'West',
+            ],
+            [
+                'name'=>'Anakin',
+                'surname'=>'Skywalker',
+            ],
+        ];
+        return view('post.task_29', ['title' => 'number-29', 'user'=>$users ]);
+    }
+
+    public function task_30() {
+          $stringus = [
+            [
+                'name'=>'John',
+                'surname'=>'Pork',
+            ],
+            [
+                'name'=>'Tung Tung Tung',
+                'surname'=>'Sahur',
+            ],
+            [
+                'name'=>'Yu',
+                'surname'=>'Narukami',
+            ],
+        ];
+        return view('post.task_30', ['title'=>'number-30', 'string'=>$stringus]);
+    }
 }
