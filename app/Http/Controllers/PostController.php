@@ -212,17 +212,16 @@ class PostController extends Controller {
     public function task_30() {
           $stringus = [
             [
-                'name'=>'John',
-                'surname'=>'Pork',
+                1 => 'Makoto Yuki'
+
             ],
             [
-                'name'=>'Tung Tung Tung',
-                'surname'=>'Sahur',
+                2 => 'Yu Narukami'
+                
             ],
             [
-                'name'=>'Yu',
-                'surname'=>'Narukami',
-            ],
+                3 => 'Ren Amamiya'
+            ]   
         ];
         return view('post.task_30', ['title'=>'number-30', 'string'=>$stringus]);
     }

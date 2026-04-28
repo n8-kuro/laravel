@@ -2,13 +2,16 @@
     <x-slot:title>
         {{ $title }}
     </x-slot>
-    <ul>
-        @foreach($string as $elem)
-            <li>
-                @foreach($elem as $e)
-                     {{$e}} 
-                @endforeach
-            </li>
+    <table>
+        <tbody>
+        @foreach($string as $index => $cell)
+                <tr>
+                    <td style="color: green;"> {{ $index }}</td>
+                    @foreach ($cell as $value)
+                        <td style="color: red"> {{ $value }} </td>
+                    @endforeach
+                </tr>
         @endforeach
-</ul>
+        </tbody>
+    </table>
 </x-layout>
