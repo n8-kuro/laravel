@@ -1,4 +1,4 @@
-<x-layout>
+{{-- <x-layout>
     <x-slot:title>
         {{$title}}
     </x-slot:>
@@ -8,4 +8,4 @@
     <b>
         {{$user}}
     </b>
-</x-layout>
+</x-layout> --}}

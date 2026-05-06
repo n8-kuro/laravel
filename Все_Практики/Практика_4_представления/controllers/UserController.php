@@ -1,4 +1,4 @@
-<?php
+<!-- ?php
 namespace App\Http\Controllers;
 
 class UserController extends Controller {
@@ -12,4 +12,4 @@ class UserController extends Controller {
     public function show3() {
         return view('post.user_3', ['title' => 'User_3', 'text' => 'Legend', 'user' => 'Joel Miller']); 
     }
-}
+} -->

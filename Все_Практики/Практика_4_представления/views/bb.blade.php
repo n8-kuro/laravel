@@ -1,4 +1,4 @@
-<html> 
+{{-- <html> 
     <head> 
         <title>Say My Name</title>
 </head>
@@ -6,4 +6,4 @@
      name: {{$var1}}
      surname: {{$var2}}
 </body>
-</html>
+</html> --}}

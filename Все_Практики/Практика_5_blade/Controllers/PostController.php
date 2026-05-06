@@ -1,4 +1,4 @@
-<?php
+<!-- ?php
 namespace App\Http\Controllers;
 class PostController extends Controller {
     public function show() {
@@ -225,4 +225,4 @@ class PostController extends Controller {
         ];
         return view('post.task_30', ['title'=>'number-30', 'string'=>$stringus]);
     }
-}
+} -->

@@ -1,4 +1,4 @@
-<?php
+ <!-- ?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
@@ -34,4 +34,4 @@ Route::get('/num28', [PostController::class, 'task_28']);
 
 Route::get('/num29', [PostController::class, 'task_29']);
 
-Route::get('/num30', [PostController::class, 'task_30']);
+Route::get('/num30', [PostController::class, 'task_30']); -->

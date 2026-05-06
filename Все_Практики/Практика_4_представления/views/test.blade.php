@@ -1,4 +1,4 @@
-<html> 
+{{-- <html> 
     <head> 
         <title>my view</title>
 </head>
@@ -12,4 +12,4 @@
      name: {{$var1}}
      surname: {{$var2}}
 </body>
-</html>
+</html> --}}
